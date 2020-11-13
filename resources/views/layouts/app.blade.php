@@ -10,10 +10,9 @@
 
 <body>
     <div class="container">
+        {{-- O conteúdo do liveware será impresso a partir deste slot--}}
         {{ $slot }}
     </div>
-
-
     
     @livewireScripts
 </body>
